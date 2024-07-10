@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class WebAppController {
 	@RequestMapping("/link1")
 	public String getResponse() {
+		
 		return "response.jsp";
 	}
 }
